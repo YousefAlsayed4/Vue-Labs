@@ -1,28 +1,40 @@
 <template>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div
-        class="collapse navbar-collapse d-flex justify-content-center"
-        id="navbarNav"
-      >
-        <ul class="navbar-nav justify-content-center">
-          <li class="nav-item active">
-            <router-link class="nav-link fs-3 fw-medium me-5 ms-5" to="/"
-              >Home</router-link
-            >
+   
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #000; color: #FFF8DC;">
+    <div class="container-fluid">
+      <a class="navbar-brand" >
+        <img src="@/assets/logo.png" alt="icon" width="50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <router-link class="nav-link active" style="color: #FFF8DC;" aria-current="page" to="/">Home</router-link>
           </li>
-          
-       
+          <li class="nav-item">
+            <router-link class="nav-link active" style="color: #FFF8DC;" aria-current="page" to="/addmovie">Add Movie</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link active" style="color: #FFF8DC;" aria-current="page" to="/Movies">Movies</router-link>
+          </li>
+        
         </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <div>
+
   </div>
 </template>
 
 <script>
-export default {
-  name: "navBar",
-};
+    export default {
+        
+    }
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

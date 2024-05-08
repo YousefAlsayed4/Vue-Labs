@@ -1,0 +1,68 @@
+{
+  "Movies": [
+    {
+      "id": "1",
+      "movie": "The Shawshank Redemption",
+      "rating": 9.2,
+      "image": "https://m.media-amazon.com/images/I/51x65RBuFnL._AC_UF894,1000_QL80_DpWeblab_.jpg",
+      "imdb_url": "https://www.imdb.com/title/tt0111161/"
+    },
+    {
+      "id": "2",
+      "movie": "The Godfather",
+      "rating": 9.4,
+      "image": "https://s.fushar.video/wp-content/uploads/2020/08/000612.jpg",
+      "imdb_url": "https://www.imdb.com/title/tt0068646/"
+      
+    },
+    {
+      "id": "3",
+      "movie": "The Dark Knight",
+      "rating": 9,
+      "image": "https://ew.com/thmb/B0w9qzmQqCZ1tumxv8cBx0aPTrQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mcddakn_ec005-2000-a3d30c1958fb442486fb1e10ba92dd17.jpg",
+      "imdb_url": "https://www.imdb.com/title/tt0468569/"
+    },
+    {
+      "id": "5",
+      "movie": "The Lord of the Rings: The Return of the King",
+      "rating": 9,
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/40/Rotkboxart2.jpg",
+      "imdb_url": "https://www.imdb.com/title/tt0167260/"
+    },
+    {
+      "id": "6",
+      "movie": "The Good, the Bad and the Ugly",
+      "rating": 8.8,
+      "image": "https://m.media-amazon.com/images/I/81yRIE88iwL._AC_UF894,1000_QL80_DpWeblab_.jpg",
+      "imdb_url": "https://www.imdb.com/title/tt0060196/"
+    },
+    {
+        "id": "7",
+        "movie": "Fight Club",
+        "rating": 8.8,
+        "image": "https://m.media-amazon.com/images/I/71QPnEkXygS._AC_UF1000,1000_QL80_.jpg",
+        "imdb_url": "https://www.imdb.com/title/tt0137523/"
+      },
+      {
+        "id": "8",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring",
+        "rating": 8.8,
+        "image": "https://m.media-amazon.com/images/I/512zVlD070L._AC_UF894,1000_QL80_.jpg",
+        "imdb_url": "https://www.imdb.com/title/tt0120737/"
+      },
+      {
+        "id": "9",
+        "movie": "Forrest Gump",
+        "rating": 8.8,
+        "image": "https://m.media-amazon.com/images/I/71Kih9pBDyL._AC_UF1000,1000_QL80_DpWeblab_.jpg",
+        "imdb_url": "https://www.imdb.com/title/tt0109830/"
+      },
+      {
+          "id": "10",
+          "movie": "Inception",
+          "rating": 8.8,
+          "image": "https://m.media-amazon.com/images/I/91HaVHbnZoL._AC_UF894,1000_QL80_.jpg",
+          "imdb_url": "https://www.imdb.com/title/tt1375666/"
+        }
+  ]
+}
